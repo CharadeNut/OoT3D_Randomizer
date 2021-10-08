@@ -1637,6 +1637,11 @@ SaveMenuIgnoreOpen_patch:
 OverrideFogDuringGameplayInit_patch:
     bl hook_OverrideFogDuringGameplayInit
 
+.section .patch_FastBunnyHood
+.global FastBunnyHood_patch
+FastBunnyHood_patch:
+    bl hook_FastBunnyHood
+
 .section .patch_loader
 .global loader_patch
 

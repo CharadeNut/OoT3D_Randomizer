@@ -512,6 +512,10 @@ SECTIONS
 		*(.patch_SpiritTempleItemGiveTwo)
 	}
 
+	.patch_FastBunnyHood 0x251d34 : {
+		*(.patch_FastBunnyHood)
+	}
+
 	.patch_SkipDaruniaDanceThree 0x257f00 : {
 		*(.patch_SkipDaruniaDanceThree)
 	}
